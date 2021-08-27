@@ -1,0 +1,9 @@
+Grading at Fri 27 Aug 2021 12:08:19 PM UTC
+Compiling your code
+hello.c:7:2: error: ISO C does not allow extra ‘;’ outside of a function [-Werror=pedantic]
+    7 | };
+      |  ^
+cc1: all warnings being treated as errors
+Your code did not compile
+
+Overall Grade: FAILED
