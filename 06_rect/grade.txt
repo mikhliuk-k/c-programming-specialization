@@ -1,82 +1,13 @@
-Grading at Sat 11 Sep 2021 09:45:57 AM UTC
+Grading at Sat 11 Sep 2021 09:47:42 AM UTC
 Attempting to compile rectangle.c
-rectangle.c:26:1: error: unknown type name ‘rectangle’
-   26 | rectangle canonicalize(rectangle r) {
-      | ^~~~~~~~~
-rectangle.c:26:24: error: expected declaration specifiers or ‘...’ before ‘rectangle’
-   26 | rectangle canonicalize(rectangle r) {
-      |                        ^~~~~~~~~
-rectangle.c:44:1: error: unknown type name ‘rectangle’
-   44 | rectangle intersection(rectangle r1, rectangle r2) {
-      | ^~~~~~~~~
-rectangle.c:44:24: error: expected declaration specifiers or ‘...’ before ‘rectangle’
-   44 | rectangle intersection(rectangle r1, rectangle r2) {
-      |                        ^~~~~~~~~
-rectangle.c:44:38: error: expected declaration specifiers or ‘...’ before ‘rectangle’
-   44 | rectangle intersection(rectangle r1, rectangle r2) {
-      |                                      ^~~~~~~~~
-rectangle.c:78:21: error: expected declaration specifiers or ‘...’ before ‘rectangle’
-   78 | void printRectangle(rectangle r) {
-      |                     ^~~~~~~~~
-rectangle.c: In function ‘main’:
-rectangle.c:90:3: error: statement with no effect [-Werror=unused-value]
-   90 |   rectangle r1;
-      |   ^~~~~~~~~
-rectangle.c:90:12: error: expected ‘;’ before ‘r1’
-   90 |   rectangle r1;
-      |            ^~~
-      |            ;
-rectangle.c:91:3: error: statement with no effect [-Werror=unused-value]
-   91 |   rectangle r2;
-      |   ^~~~~~~~~
-rectangle.c:91:12: error: expected ‘;’ before ‘r2’
-   91 |   rectangle r2;
-      |            ^~~
-      |            ;
-rectangle.c:92:3: error: statement with no effect [-Werror=unused-value]
-   92 |   rectangle r3;
-      |   ^~~~~~~~~
-rectangle.c:92:12: error: expected ‘;’ before ‘r3’
-   92 |   rectangle r3;
-      |            ^~~
-      |            ;
-rectangle.c:93:3: error: statement with no effect [-Werror=unused-value]
-   93 |   rectangle r4;
-      |   ^~~~~~~~~
-rectangle.c:93:12: error: expected ‘;’ before ‘r4’
-   93 |   rectangle r4;
-      |            ^~~
-      |            ;
-rectangle.c:95:3: error: ‘r1’ undeclared (first use in this function)
-   95 |   r1.x = 2;
-      |   ^~
-rectangle.c:95:3: note: each undeclared identifier is reported only once for each function it appears in
-rectangle.c:100:3: error: implicit declaration of function ‘printRectangle’ [-Werror=implicit-function-declaration]
-  100 |   printRectangle(r1);
-      |   ^~~~~~~~~~~~~~
-rectangle.c:102:3: error: ‘r2’ undeclared (first use in this function)
-  102 |   r2.x = 4;
-      |   ^~
-rectangle.c:109:3: error: ‘r3’ undeclared (first use in this function)
-  109 |   r3.x = -2;
-      |   ^~
-rectangle.c:116:3: error: ‘r4’ undeclared (first use in this function)
-  116 |   r4.x = 0;
-      |   ^~
-rectangle.c:124:3: error: statement with no effect [-Werror=unused-value]
-  124 |   rectangle i = intersection(r1,r1);
-      |   ^~~~~~~~~
-rectangle.c:124:12: error: expected ‘;’ before ‘i’
-  124 |   rectangle i = intersection(r1,r1);
-      |            ^~
-      |            ;
-rectangle.c:126:18: error: ‘i’ undeclared (first use in this function)
-  126 |   printRectangle(i);
-      |                  ^
-rectangle.c:128:7: error: implicit declaration of function ‘intersection’ [-Werror=implicit-function-declaration]
-  128 |   i = intersection(r1,r2);
-      |       ^~~~~~~~~~~~
-cc1: all warnings being treated as errors
-The code did not compile!
+Tring to run rectangle
+Your file matched the expected output
+removing your main() and replacing it with out own to run more tests...
+#################################################
+testcase1:
+testcase1 passed
+#################################################
+testcase2:
+testcase2 passed
 
-Overall Grade: F
+Overall Grade: A
