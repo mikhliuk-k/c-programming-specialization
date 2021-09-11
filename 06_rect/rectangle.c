@@ -21,7 +21,9 @@ struct rectTag {
     int y;
     int width;
     int height;
-} rectangle;
+};
+typedef struct rectTag rectangle;
+
 
 rectangle canonicalize(rectangle r) {
   //WRITE THIS FUNCTION
